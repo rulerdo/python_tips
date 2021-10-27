@@ -50,10 +50,18 @@ print('')
 # 4) BONUS si tienen python 3.10 instalado
 
 if sys.version_info >= (3,10,0):
+
   print('A partir de Python 3.10 podemos usar el argumento strict para forzar que las listas sean del mismo tamaño:')
-  for item in zip(frutas,colores,strict=True):
-    print(item)
-  print('')
+
+  try:
+
+    for item in zip(frutas,colores,strict=True):
+        print(item)
+    print('')
+
+  except ValueError as e:
+      
+      print('ValueError:',e)
 
 input('presiona la tecla enter para ir al siguiente ejemplo...')
 
