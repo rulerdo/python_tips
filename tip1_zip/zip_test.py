@@ -55,7 +55,7 @@ if sys.version_info >= (3,10,0):
     print(item)
   print('')
 
-input('Presiona cualquier tecla para ir al siguiente ejemplo...')
+input('presiona la tecla enter para ir al siguiente ejemplo...')
 
 # -----------------------------------------------------------------------------------
 
@@ -99,7 +99,7 @@ for elemento in range(4):
       print(item)
     print('\n')
 print('')
-input('Presiona cualquier tecla para ir al siguiente ejemplo...')
+input('presiona la tecla enter para ir al siguiente ejemplo...')
 
 # -----------------------------------------------------------------------------------
 
