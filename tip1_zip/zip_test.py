@@ -102,8 +102,8 @@ print('')
 # 3)
 
 print('Iteramos en la lista de encabezados y en todos los elementos de la tabla de clientes usando loops for anidados:')
-for elemento in range(4):
-    for item in zip(encabezados,clientes[elemento]):
+for linea in clientes:
+    for item in zip(encabezados,linea):
       print(item)
     print('\n')
 print('')
