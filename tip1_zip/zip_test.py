@@ -65,9 +65,9 @@ encabezados = ['nombre','edad','telefono','email']
 
 clientes = [
     ['Raul', '39', '1234567890', 'raul.agobe@gmail.com'],
-    ['Abraham', '40', '0987654321', 'abraham@email.com'],
+    ['Abraham', '39', '0987654321', 'abraham@email.com'],
     ['Paco', '45', '1234512345', 'paco@email.com'],
-    ['Alfred', '46', '9081726354', 'alfred@email.com'],
+    ['Alfred', '42', '9081726354', 'alfred@email.com'],
 ]
 
 print(f'{encabezados=}')
