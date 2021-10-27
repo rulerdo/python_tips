@@ -6,6 +6,7 @@
 
 from pprint import pprint # para imprimir tabla
 import json # para dar formato a lista de diccionarios
+import sys # para checar version de python instalada
 
 # -----------------------------------------------------------------------------------
 
@@ -45,6 +46,15 @@ print('Si las listas no son del mismo tamaño, la iteracion se trunca en el ulti
 for item in zip(frutas,colores):
   print(item)
 print('')
+
+# 4) BONUS si tienen python 3.10 instalado
+
+if sys.version_info >= (3,10,0):
+  print('A partir de Python 3.10 podemos usar el argumento strict para forzar que las listas sean del mismo tamaño:')
+  for item in zip(frutas,colores,strict=True):
+    print(item)
+  print('')
+
 input('Presiona cualquier tecla para ir al siguiente ejemplo...')
 
 # -----------------------------------------------------------------------------------
