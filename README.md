@@ -4,7 +4,7 @@
 
 Este repositorio incluye una serie de scripts didacticos en los que demostraremos el uso de funciones basicas de python
 
-Estos scripts seran mostrados en forma de tips en pequeños videos de Youtube de no mas de 5 minutos
+Estos scripts seran mostrados en forma de tips en pequeños videos de Youtube de no mas de 10 minutos
 
 # Autor
 
